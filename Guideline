@@ -1,0 +1,19 @@
+Currency Task
+
+ solution has two sub-projects and they are as the following 
+-	WPFClient serve as client side (WPF) 
+-	WCFService serve as server side 
+
+WPFClient  project features
+-	Using MVVM design pattern for structured and minitablet code 
+-	Using Adorners for custom styling 
+-	Button animations 
+-	Input validation 
+-	Error handling 
+WCFService project features 
+-	Split number based on type (Million, Thousand, Hundred, Tens, Units) 
+-	Math features exist in C#
+-	Validation 
+-	Error handling 
+Note: Before running the project, run WCFService first and check if accessible from browser, 
+then copy the URL and paste in WPFClient App.Config file
